@@ -1,4 +1,4 @@
-import Template, { AboutImgTemp } from "@/app/template";
+import Template, { AboutImgTemp, AboutPageTemp } from "@/app/template";
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
@@ -7,11 +7,7 @@ type Props = {};
 
 const About = (props: Props) => {
   return (
-    <Template
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{ duration: 1.5 }}
-    >
+    <AboutPageTemp>
       <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
         <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
           About
@@ -37,7 +33,7 @@ const About = (props: Props) => {
           </p>
         </div>
       </div>
-    </Template>
+    </AboutPageTemp>
   );
 };
 
