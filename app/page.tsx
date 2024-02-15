@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import { PageInfo, Project, Skill, Social } from "@/typings";
@@ -19,6 +20,9 @@ export default function Home({ pageInfo, projects, skills, socials }: Props) {
       </section>
 
       {/* About */}
+      <section id="about" className="snap-center">
+        <About />
+      </section>
 
       {/* Experience*/}
 
