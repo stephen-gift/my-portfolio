@@ -15,7 +15,7 @@ export default function BackgroundCircles({}: Props) {
       }}
       transition={{ duration: 2.5 }}
     >
-      <div className="relative flex justify-center items-center">
+      <div className="relative  flex justify-center items-center">
         <div className="absolute border border-[#333] rounded-full h-[100px] w-[100px] mt-52 animate-ping"></div>
         <div className="absolute border border-[#333] rounded-full h-[200px] w-[200px] mt-52"></div>
         <div className="absolute border border-[#333] rounded-full h-[300px] w-[300px] mt-52"></div>
