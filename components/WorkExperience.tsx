@@ -4,7 +4,7 @@ type Props = {}
 
 const WorkExperience = (props: Props) => {
   return (
-    <div>WorkExperience</div>
+    <div className='h-screen'>WorkExperience</div>
   )
 }
 
