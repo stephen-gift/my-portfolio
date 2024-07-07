@@ -7,7 +7,7 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <header className="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
+    <header className=" p-5 flex items-center justify-between max-w-7xl mx-auto z-20 xl:items-center ">
       <Template>
         <div className="flex flex-row items-center">
           {/* Social icons */}
